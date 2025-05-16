@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Search from './components/search'
-import Spinner from './components/spinner'
+import Spinner from './components/Spinner'
 import MovieCard from './components/MovieCard';
 import { useDebounce } from 'react-use'; // we are using the react-use library to debounce the search term
 import { getTrendingMovies, updateSearchCount } from './appwrite.js'; // we are importing the function from the utils file
