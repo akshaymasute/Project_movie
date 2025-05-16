@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Search from './components/search'
+import Search from './components/Search'
 import Spinner from './components/Spinner'
 import MovieCard from './components/MovieCard';
 import { useDebounce } from 'react-use'; // we are using the react-use library to debounce the search term
